@@ -12,4 +12,6 @@
 */
 
 Route::get('/', 'Home\IndexController@index');
+Route::get('/category/{cate_id}', 'Home\IndexController@category');
+Route::get('/article/{art_id}', 'Home\IndexController@article');
 
